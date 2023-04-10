@@ -1,0 +1,20 @@
+.nav{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem;
+    background-color: aliceblue;
+}
+.nav span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color: black;
+}
+
+.nav span:hover{
+    color: red;
+}

@@ -1,0 +1,87 @@
+
+.homeImage{
+  top:0;
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  z-index: -1;
+}
+.text{
+  margin-top: 40vh;
+  color: white;
+  text-align: center;
+}
+.text h1{
+  font-size: 3rem;
+}
+.text p{
+  font-size: 2rem;
+}
+.text hr{
+  width: 60vw;
+  height: 4px;
+  background-color: white;
+  margin:1rem 20vw ;
+}
+.content{
+  margin: 1rem 10vw;
+  background-color: rgb(218, 215, 215);
+  border-radius: 1rem;
+}
+.tbg{
+  font-size: 2rem;
+  text-align: center;
+}
+.services{
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(6, 65, 97, 1);
+  border-radius: 1rem;
+}
+.services button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 1rem;
+  font-weight: 600;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.price{
+  margin: 1rem 10rem;
+  background-color: rgba(6, 65, 97, 1);
+  border-radius: 5px;
+  color: white;
+  padding: 1rem;
+
+}
+@media only screen and (max-width: 1000px) {
+  .content{
+    margin: 1rem 1rem;
+  }
+  .services{
+    flex-direction: column;
+  }
+  .price{
+    margin: 1rem 1rem;
+  }
+  .homeImage{
+    width: 100vw;
+  }
+  .main{
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 570px){
+  .main{
+    min-width:100vw !important;
+    overflow: hidden;
+  }
+  .homeImage{
+    width: 100vw;
+  
+  }
+}
